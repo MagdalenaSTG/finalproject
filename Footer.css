@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Hurricane', cursive;
+    font-weight: bold;
+    font-size: x-large;
+    display: block;
+} 
+
+
+
+ul {
+    list-style: none;
+}
+/*Header */
+
+.nav-link {
+    display: inline-block;
+    padding: 8px;
+    color: #404040;
+}
+
+.nav-taylor {
+    display: inline-block;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Hurricane', cursive;
+    text-decoration: double;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}   
+.nav-taylor:hover{
+    text-decoration: underline
+}
+.ts{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link2{
+    display: flex;
+    justify-content: center;
+}
+.nav-link2:hover {
+    text-decoration: underline;
+}   
+
+   
